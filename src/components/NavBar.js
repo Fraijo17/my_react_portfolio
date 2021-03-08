@@ -1,6 +1,6 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import { SocialIcon } from "react-social-icons";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { SocialIcon } from 'react-social-icons';
 
 export default function NavBar() {
   return (
@@ -16,21 +16,21 @@ export default function NavBar() {
             Abraham
           </NavLink>
           <NavLink
-            to="../component/Post.js"
+            to="/post"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-green-800"
             activeClassName="text-gray-100 bg-gray-700"
           >
             Blog Posts
           </NavLink>
           <NavLink
-            to="../component/Project.js"
+            to="/project"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-green-800"
             activeClassName="text-gray-100 bg-gray-700"
           >
             Projects
           </NavLink>
           <NavLink
-            to="../component/About.js"
+            to="/about"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-green-800"
             activeClassName="text-gray-100 bg-gray-700"
           >
@@ -62,5 +62,5 @@ export default function NavBar() {
         </div>
       </div>
     </header>
-  );
+  )
 }

@@ -1,10 +1,10 @@
-import {BrowserRouter, Route, Switch} from "react-router-dom";
-import Home from "./component/Home";
-import About from "./component/About";
-import SinglePost from "./component/SinglePost";
-import Post from "./component/Post";
-import Project from "./component/Project";
-import NavBar from "./component/NavBar";
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import SinglePost from './components/SinglePost';
+import Post from './components/Post';
+import Project from './components/Project';
+import NavBar from './components/NavBar';
 
 
 function App() {
