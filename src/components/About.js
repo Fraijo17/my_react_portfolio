@@ -55,13 +55,7 @@ export default function About() {
                             </div>
                             <div className="inline-flex py-3 px-3 my-6">
     
-                                <SocialIcon url="https://docs.google.com/document/d/1NNUgd6QUcsjGXQrYkTWjk-Vd-KZvy1bOT_tNf0tuuAU/edit?usp=sharing" className="mr-4" target="_blank" fgColor="#fff" bgColor="black"
-                                    style={
-                                        {
-                                            height: 40,
-                                            width: 40
-                                        }
-                                    }/>
+                               
     
                             </div>
     

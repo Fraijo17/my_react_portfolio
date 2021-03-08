@@ -15,13 +15,7 @@ export default function NavBar() {
           >
             Abraham
           </NavLink>
-          <NavLink
-            to="/post"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-green-800"
-            activeClassName="text-gray-100 bg-gray-700"
-          >
-            Blog Posts
-          </NavLink>
+          
           <NavLink
             to="/project"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-green-800"
@@ -54,6 +48,13 @@ export default function NavBar() {
           />
           <SocialIcon
             url="https://github.com/Fraijo17"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            style={{ height: 35, width: 35 }}
+          />
+          <SocialIcon
+            url="https://docs.google.com/document/d/1NNUgd6QUcsjGXQrYkTWjk-Vd-KZvy1bOT_tNf0tuuAU/edit?usp=sharing"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
