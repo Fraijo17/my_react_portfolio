@@ -18,21 +18,21 @@ export default function NavBar() {
           <NavLink
             to="../component/Post.js"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-green-800"
-            activeClassName="text-red-100 bg-red-700"
+            activeClassName="text-gray-100 bg-gray-700"
           >
             Blog Posts
           </NavLink>
           <NavLink
             to="../component/Project.js"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-green-800"
-            activeClassName="text-red-100 bg-red-700"
+            activeClassName="text-gray-100 bg-gray-700"
           >
             Projects
           </NavLink>
           <NavLink
             to="../component/About.js"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-green-800"
-            activeClassName="text-red-100 bg-red-700"
+            activeClassName="text-gray-100 bg-gray-700"
           >
             About me!
           </NavLink>
